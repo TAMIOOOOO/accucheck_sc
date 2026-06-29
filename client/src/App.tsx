@@ -27,7 +27,7 @@ function ProtectedRoute({ component: Component, ...rest }: { component: any, pat
   const { data: user, isLoading } = useUser();
 
   if (isLoading) {
-    return <div className="min-h-screen flex items-center justify-center bg-slate-50"><Loader2 className="h-8 w-8 text-primary animate-spin" /></div>;
+    return <div className="min-h-screen flex itenpms-center justify-center bg-slate-50"><Loader2 className="h-8 w-8 text-primary animate-spin" /></div>;
   }
 
   if (!user) {
